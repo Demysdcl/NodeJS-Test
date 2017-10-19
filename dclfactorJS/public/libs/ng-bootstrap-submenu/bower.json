@@ -1,0 +1,17 @@
+{
+  "name": "ng-bootstrap-submenu",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ryan Langton"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chaiyilin/ng-bootstrap-submenu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

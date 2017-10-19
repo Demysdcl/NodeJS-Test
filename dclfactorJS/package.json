@@ -1,0 +1,37 @@
+{
+  "name": "dclfactorJS",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "run-dev": "nodemon index.js"
+  },
+  "description": "This is a production system to manager data and to have information about it",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Demys Cota de Lima",
+  "email": "demysdcl@gmail.com",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "express-validator": "^2.21.0",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "sequelize": "^3.24.6",
+    "tedious": "^1.14.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

@@ -1,0 +1,2 @@
+{"level":"info","message":"MISS - chave nao encontrada","timestamp":"2016-10-27T20:28:02.934Z"}
+{"level":"info","message":"::1 - - [27/Oct/2016:20:28:03 +0000] \"GET /pagamentos/pagamento/1 HTTP/1.1\" 200 162\n","timestamp":"2016-10-27T20:28:03.070Z"}

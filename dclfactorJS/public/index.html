@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dclfactorJS">
+    <head>
+        <!-- Fix Mozilla Firefox warning. -->
+        <!-- Jekyll don't add charset to "content-type" header -->
+        <meta charset="utf-8">
+
+        <title>Bootstrap-submenu</title>
+
+        <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="libs/bootstrap-submenu/dist/css/bootstrap-submenu.min.css">
+
+        <script src="libs/jquery/dist/jquery.js"></script>
+        <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="https://cdn.jsdelivr.net/highlight.js/9.5.0/highlight.min.js"></script>
+        <script src="libs/bootstrap-submenu/dist/js/bootstrap-submenu.js"></script>
+        <script src="libs/angular/angular.min.js"></script>
+        <script src="libs/angular-route/angular-route.min.js"></script>
+        <script src="libs/angular-bootstrap/ui-bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="js/controller/lote-controller.js"></script>
+        <script src="js/modules/lote-module.js"></script>
+
+    </head>
+
+    <body >
+        <div class="container" >
+            <h3>Navbar</h3>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand">Project Name</a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a tabindex="0" data-toggle="dropdown" data-submenu>
+                                Dropdown<span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a tabindex="1">Action</a>
+
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="0">Sub action</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a tabindex="0">Another sub action</a>
+
+                                            <ul class="dropdown-menu">
+                                                <li><a tabindex="0">Sub action</a></li>
+                                                <li><a tabindex="0">Another sub action</a></li>
+                                                <li><a tabindex="0">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a tabindex="0">Something else here</a></li>
+                                        <li class="disabled"><a tabindex="-1">Disabled action</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a tabindex="0">Another action</a>
+
+                                            <ul class="dropdown-menu">
+                                                <li><a tabindex="0">Sub action</a></li>
+                                                <li><a tabindex="0">Another sub action</a></li>
+                                                <li><a tabindex="0">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-header">Dropdown header</li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="0">Another action</a>
+
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="0">Sub action</a></li>
+                                        <li><a tabindex="0">Another sub action</a></li>
+                                        <li><a tabindex="0">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li><a tabindex="0">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a tabindex="0">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div ng-view>
+                <h1 class="jumbotron">Formação de Lote</h1>
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>
