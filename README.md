@@ -1,3 +1,3 @@
 # NodeJS-Test
 
-This is a studies and tests with NodeJS and MEAN
+These are studies and tests with NodeJS and MEAN
